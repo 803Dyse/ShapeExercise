@@ -10,10 +10,10 @@ package exercicio431;
  */
 public abstract class Shape {
 
-    public void draw() {
+    protected void draw() {
     }
 
-    public void erase() {
+    protected void erase() {
     }
 
     /**

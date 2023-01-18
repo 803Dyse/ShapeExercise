@@ -8,6 +8,16 @@ package exercicio431;
  *
  * @author Bilo Alejandro Martins Gonzalez
  */
-public class Circle extends Shape{
-    
+public class Circle extends Shape {
+
+    @Override
+    protected void draw() {
+        System.out.println("Debuxando círculo");
+
+    }
+
+    @Override
+    protected void erase() {
+        System.out.println("Borrando círculo");
+    }
 }

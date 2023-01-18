@@ -8,6 +8,15 @@ package exercicio431;
  *
  * @author Bilo Alejandro Martins Gonzalez
  */
-public class Square extends Shape{
-    
+public class Square extends Shape {
+
+    @Override
+    protected void draw() {
+        System.out.println("Debuxando cadrado");
+    }
+
+    @Override
+    protected void erase() {
+        System.out.println("Borrando cadrado");
+    }
 }

@@ -11,6 +11,11 @@ import java.util.ArrayList;
  * @author Bilo Alejandro Martins Gonzalez
  */
 public class Board {
-    ArrayList<String>figures = new ArrayList<>();
-    
+
+    ArrayList<String> figures = new ArrayList<>();
+
+    private void addFigures() {
+
+    }
+
 }
